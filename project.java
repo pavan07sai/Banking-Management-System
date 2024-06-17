@@ -328,15 +328,16 @@ static class Start {
         } while (choice != "q");
         sc.close();
  }
+ 
  public static void error() {
-  System.out.print("\t\t     *****************************\n");
+  System.out.print("\t\t     ******************************\n");
   System.out.print("\t\t     |-----------> ERROR <--------| \n");
-  System.out.print("\t\t     *****************************\n");
+  System.out.print("\t\t     ******************************\n");
   System.out.print("\t\t     You Select some thin wrong\n");
   System.out.print("\t\t                OR\n");
   System.out.print("\t\t  There may be some othere Problem\n");
   System.out.print("\t\t It is better for you to try again...!\n");
-  System.out.print("\t\t     *****************************\n");
+  System.out.print("\t\t     ******************************\n");
  }
 }
  public static void main(String[] args) {
